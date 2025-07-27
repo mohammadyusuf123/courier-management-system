@@ -2,16 +2,18 @@
 
 A comprehensive, modern courier and parcel management system built with Next.js 15, featuring real-time tracking, role-based dashboards, and Google Maps integration.
 
-![Courier Management System](https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=1200&h=600&fit=crop)
+![Courier Management System](https://drive.google.com/file/d/1J60YJNahiSqogBEvnEyQrTca0HI6P8vg/view?usp=sharing)
 
 ## 🌟 Features
 
 ### 🔐 **Multi-Role Authentication System**
+
 - **Admin Panel**: Complete system oversight and management
 - **Delivery Agent Dashboard**: Route optimization and parcel management
 - **Customer Portal**: Parcel booking and real-time tracking
 
 ### 📦 **Parcel Management**
+
 - Create, edit, and delete parcels
 - Real-time status updates
 - Barcode/QR code generation
@@ -19,6 +21,7 @@ A comprehensive, modern courier and parcel management system built with Next.js 
 - Bulk operations and export functionality
 
 ### 🗺️ **Advanced Tracking & Maps**
+
 - Real-time GPS tracking simulation
 - Google Maps integration
 - Route optimization for delivery agents
@@ -26,6 +29,7 @@ A comprehensive, modern courier and parcel management system built with Next.js 
 - Delivery proof with photos
 
 ### 📊 **Analytics & Reporting**
+
 - Revenue and performance dashboards
 - Delivery analytics and KPIs
 - Custom report generation
@@ -33,6 +37,7 @@ A comprehensive, modern courier and parcel management system built with Next.js 
 - Interactive charts and visualizations
 
 ### 🎨 **Modern UI/UX**
+
 - Responsive design for all devices
 - Dark/Light theme support
 - Smooth animations and transitions
@@ -42,6 +47,7 @@ A comprehensive, modern courier and parcel management system built with Next.js 
 ## 🛠️ Tech Stack
 
 ### **Frontend**
+
 - **Next.js 15** - React framework with App Router
 - **TypeScript** - Type-safe development
 - **Tailwind CSS** - Utility-first styling
@@ -50,12 +56,14 @@ A comprehensive, modern courier and parcel management system built with Next.js 
 - **Recharts** - Data visualization
 
 ### **Backend & APIs**
+
 - **Next.js API Routes** - Server-side functionality
 - **WebSocket** - Real-time updates
 - **Google Maps API** - Location services
 - **Geolocation API** - GPS tracking
 
 ### **State Management**
+
 - **React Context** - Global state management
 - **React Hooks** - Local state and effects
 - **Custom Hooks** - Reusable logic
@@ -63,29 +71,32 @@ A comprehensive, modern courier and parcel management system built with Next.js 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 18+ 
+
+- Node.js 18+
 - npm or yarn
 - Google Maps API key (optional for full functionality)
 
 ### Installation
 
 1. **Clone the repository**
-\`\`\`bash
-git clone https://github.com/yourusername/courier-management-system.git
-cd courier-management-system
-\`\`\`
+   \`\`\`bash
+   git clone https://github.com/yourusername/courier-management-system.git
+   cd courier-management-system
+   \`\`\`
 
 2. **Install dependencies**
-\`\`\`bash
-npm install
+   \`\`\`bash
+   npm install
+
 # or
+
 yarn install
 \`\`\`
 
 3. **Set up environment variables**
-\`\`\`bash
-cp .env.example .env.local
-\`\`\`
+   \`\`\`bash
+   cp .env.example .env.local
+   \`\`\`
 
 Add your environment variables:
 \`\`\`env
@@ -94,28 +105,33 @@ NEXT_PUBLIC_API_URL=http://localhost:3000
 \`\`\`
 
 4. **Run the development server**
-\`\`\`bash
-npm run dev
+   \`\`\`bash
+   npm run dev
+
 # or
+
 yarn dev
 \`\`\`
 
 5. **Open your browser**
-Navigate to [http://localhost:3000](http://localhost:3000)
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## 🎯 Demo Accounts
 
 ### Admin Access
+
 - **Email**: admin@courier.com
 - **Password**: admin123
 - **Features**: Full system access, user management, analytics
 
 ### Delivery Agent Access
+
 - **Email**: agent@courier.com
 - **Password**: agent123
 - **Features**: Parcel management, route optimization, delivery updates
 
 ### Customer Access
+
 - **Email**: customer@courier.com
 - **Password**: customer123
 - **Features**: Parcel booking, tracking, history
@@ -123,6 +139,7 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 ## 📱 Usage Guide
 
 ### For Administrators
+
 1. **Dashboard Overview**: Monitor system-wide metrics and KPIs
 2. **Manage Parcels**: Create, assign, and track all parcels
 3. **User Management**: Add/edit delivery agents and customers
@@ -130,12 +147,14 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 5. **System Settings**: Configure system parameters and preferences
 
 ### For Delivery Agents
+
 1. **View Assigned Parcels**: See all parcels assigned for delivery
 2. **Route Optimization**: Get optimized delivery routes via Google Maps
 3. **Update Status**: Mark parcels as picked up, in transit, or delivered
 4. **Delivery History**: View past deliveries and performance metrics
 
 ### For Customers
+
 1. **Book Parcels**: Create new parcel delivery requests
 2. **Track Parcels**: Real-time tracking with GPS location
 3. **View History**: Access complete booking and delivery history
@@ -145,46 +164,50 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 
 \`\`\`
 courier-management-system/
-├── app/                          # Next.js App Router
-│   ├── admin/                    # Admin panel pages
-│   ├── agent/                    # Agent dashboard pages
-│   ├── customer/                 # Customer portal pages
-│   ├── auth/                     # Authentication pages
-│   ├── api/                      # API routes
-│   └── globals.css               # Global styles
-├── components/                   # Reusable components
-│   ├── ui/                       # UI components (shadcn/ui)
-│   ├── layouts/                  # Layout components
-│   ├── charts/                   # Chart components
-│   ├── tracking/                 # Tracking components
-│   └── providers/                # Context providers
-├── lib/                          # Utility functions
-├── hooks/                        # Custom React hooks
-├── types/                        # TypeScript type definitions
-└── public/                       # Static assets
+├── app/ # Next.js App Router
+│ ├── admin/ # Admin panel pages
+│ ├── agent/ # Agent dashboard pages
+│ ├── customer/ # Customer portal pages
+│ ├── auth/ # Authentication pages
+│ ├── api/ # API routes
+│ └── globals.css # Global styles
+├── components/ # Reusable components
+│ ├── ui/ # UI components (shadcn/ui)
+│ ├── layouts/ # Layout components
+│ ├── charts/ # Chart components
+│ ├── tracking/ # Tracking components
+│ └── providers/ # Context providers
+├── lib/ # Utility functions
+├── hooks/ # Custom React hooks
+├── types/ # TypeScript type definitions
+└── public/ # Static assets
 \`\`\`
 
 ## 🎨 Key Features Showcase
 
 ### Real-time Tracking
+
 - Live GPS simulation with moving markers
 - Interactive timeline showing delivery progress
 - Estimated delivery time calculations
 - Push notifications for status updates
 
 ### Advanced Analytics
+
 - Revenue tracking and forecasting
 - Delivery performance metrics
 - Agent productivity analysis
 - Customer satisfaction insights
 
 ### Route Optimization
+
 - Google Maps integration for optimal routes
 - Traffic-aware routing suggestions
 - Multi-stop delivery planning
 - Distance and time calculations
 
 ### Modern UI Components
+
 - Responsive data tables with sorting/filtering
 - Interactive charts and graphs
 - Modal dialogs for CRUD operations
@@ -193,6 +216,7 @@ courier-management-system/
 ## 🔧 Configuration
 
 ### Google Maps Setup
+
 1. Get a Google Maps API key from [Google Cloud Console](https://console.cloud.google.com/)
 2. Enable the following APIs:
    - Maps JavaScript API
@@ -201,6 +225,7 @@ courier-management-system/
 3. Add the API key to your `.env.local` file
 
 ### Customization
+
 - **Colors**: Modify the color scheme in `tailwind.config.js`
 - **Animations**: Adjust animation settings in `globals.css`
 - **Layout**: Customize layouts in the `components/layouts/` directory
@@ -224,6 +249,7 @@ We welcome contributions! Please follow these steps:
 5. Open a Pull Request
 
 ### Development Guidelines
+
 - Follow TypeScript best practices
 - Use ESLint and Prettier for code formatting
 - Write meaningful commit messages
@@ -233,11 +259,13 @@ We welcome contributions! Please follow these steps:
 ## 🐛 Known Issues & Roadmap
 
 ### Current Limitations
+
 - Demo data is used (no persistent database)
 - Google Maps requires API key for full functionality
 - Real-time features are simulated
 
 ### Upcoming Features
+
 - [ ] Database integration (PostgreSQL/MongoDB)
 - [ ] Email/SMS notifications
 - [ ] Mobile app version
@@ -265,4 +293,4 @@ For support, email support@courier-system.com or join our [Discord community](ht
 
 **Built with ❤️ by the Courier Management Team**
 
-[Live Demo](https://courier-management-demo.vercel.app) | [Documentation](https://docs.courier-system.com) | [API Reference](https://api.courier-system.com)
+[Live Demo](https://courier-management-systemm.vercel.app) | [Documentation](https://docs.courier-system.com) | [API Reference](https://api.courier-system.com)
