@@ -2,7 +2,7 @@
 
 A comprehensive, modern courier and parcel management system built with Next.js 15, featuring real-time tracking, role-based dashboards, and Google Maps integration.
 
-![Courier Management System](https://i.ibb.co/Q3rCpyhx/curier-web-site.png)
+![Courier Management System]<img src="https://i.ibb.co/Q3rCpyhx/curier-web-site.png" alt="Courier Website" width="80%" />
 
 ## 🌟 Features
 
