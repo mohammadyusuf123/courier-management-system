@@ -11,7 +11,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Courier Management System",
   description: "Professional courier and parcel tracking system",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
